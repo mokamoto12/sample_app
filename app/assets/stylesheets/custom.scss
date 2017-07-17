@@ -46,8 +46,12 @@ p {
   line-height: 1.7em;
 }
 
+header .container {
+  display: flex;
+}
+
 #logo {
-  float: left;
+  flex-grow: 1;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
@@ -63,6 +67,7 @@ p {
 }
 
 footer {
+  display: flex;
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
@@ -78,15 +83,14 @@ footer a:hover {
 }
 
 footer small {
-  float: left;
+  flex-grow: 1;
 }
 
 footer ul {
-  float: right;
+  display: flex;
   list-style: none;
 }
 
 footer ul li {
-  float: left;
   margin-left: 15px;
 }
